@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 50%;
+}
+
+.delete-button {
+  margin-left: 5px;
+  color: red;
+  cursor: pointer;
+  border: 2px solid red;
+  padding: 0 5px;
+}
